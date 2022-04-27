@@ -1,0 +1,11 @@
+<mat-toolbar *ngIf="closeHeader">
+  <mat-toolbar-row>
+    <span>
+      <a><img class="css-1e1ehj-Flag" src="https://nodecli.com/flags/{{countryCode}}.svg"></a>
+      You are in {{country}}, please enjoy our offer :)
+    </span>
+    <span class="example-spacer"></span>
+    <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon" (click)="onCloseClick()">
+      close</mat-icon>
+  </mat-toolbar-row>
+</mat-toolbar>

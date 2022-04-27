@@ -1,0 +1,14 @@
+<mat-toolbar class="mat-toolbar-design">
+  <mat-toolbar-row>
+    <button mat-flat-button class="mat-button-design" [routerLink]="['']">
+      <a><img src='https://raw.githubusercontent.com/hraverkar/MusicPlayer/master/src/assets/angular-white-transparent.svg' 
+        width="35px" height="35px" alt="Italian Trulli"></a>
+      {{title}}</button>
+    <button matIcon mat-flat-button  [routerLink]="['home']">Home</button>
+    <span class="example-spacer"></span>
+    <button mat-flat-button  [routerLink]="['login']">
+      <mat-icon mat-flat-button class="example-icon" style="color: black;" aria-hidden="false" aria-label="Example user verified icon">power_settings_new</mat-icon>Login</button>
+    <span class="example-spacer1"></span>
+    <mat-icon mat-flat-button class="example-icon" aria-hidden="false" aria-label="Example user verified icon">http</mat-icon>
+  </mat-toolbar-row>
+</mat-toolbar>

@@ -1,0 +1,26 @@
+.css-1t4zu3z-Wrap {
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    border-top-left-radius: 3px;
+    z-index: 999999;
+    padding: 0.3rem 0.6rem;
+    background: #F3F2EF;
+    color: #464646;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-size: 1rem;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.css-1t4zu3z-Wrap img {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 100%;
+    width: 2.2rem;
+}
+
+.css-1t4zu3z-Wrap:hover {
+    background: #ffd740;
+}
